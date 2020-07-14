@@ -36,7 +36,7 @@ class Application(tk.Frame):
 		self.resultFrame = tk.Frame(self)
 		self.resultFrame.grid(row=1, column=0, padx=25, sticky='w')
 		
-		self.numberLabel = tk.Label(self.resultFrame, text='Guessed Number: ')
+		self.numberLabel = tk.Label(self.resultFrame, text='Predicted Number: ')
 		self.numberLabel.grid(row=0, column=0, sticky='w')
 
 		self.resultingNumber = tk.StringVar(self)
